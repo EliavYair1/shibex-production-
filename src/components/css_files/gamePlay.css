@@ -1,0 +1,115 @@
+.platBtn {
+  width: 20em;
+  height: 5em;
+}
+.gamePlay-container {
+  height: 800px;
+}
+.platBtn .innerBtn {
+  font-size: 2em;
+  font-family: var(--gameFont);
+  font-weight: bold;
+}
+
+.gameplayPara {
+  font-family: var(--gameFont2);
+}
+.gameplayHeader {
+  font-family: var(--gameFont);
+}
+.video-container {
+  position: relative;
+}
+.video-container .video {
+  width: 1000px;
+  height: 400px;
+  position: relative;
+  top: 10px;
+  left: 150px;
+  object-fit: cover;
+  z-index: 10;
+}
+
+
+@media only screen and (max-width:400px) and (min-width: 350px) {
+     .video-container .video {
+    top: 10px;
+    left:1em;
+    width: 300px;
+    height: 180px;
+   
+  } 
+    .platBtn {
+      width: 10em;
+    }
+.platBtn .innerBtn {
+      font-size: 1.4em;
+    }
+}
+
+@media only screen and (max-width: 450px) and (min-width: 401px) {
+      .video-container .video {
+    top: 10px;
+    left:2.5em;
+    width: 300px;
+    height: 180px;
+   
+  } 
+  
+  .platBtn {
+    width: 12em;
+  }
+  .platBtn .innerBtn {
+    font-size: 1.5em;
+    font-family: var(--gameFont);
+    font-weight: bold;
+  }
+}
+
+@media only screen and (max-width: 576px) and (min-width: 450px) {
+   .video-container .video {
+    top: 10px;
+    left: 4.5em;
+    width: 350px;
+    height: 200px;
+  } 
+  .platBtn {
+    width: 15em;
+    height: 3em;
+  }
+  .platBtn .innerBtn {
+    font-size: 1.5em;
+    font-family: var(--gameFont);
+    font-weight: bold;
+  }
+}
+@media only screen and (max-width: 768px) and (min-width: 571px) {
+  .video-container .video {
+    width: 500px;
+    height: 400px;
+    top: 10px;
+    left: 5px;
+  }
+}
+@media only screen and (max-width: 992px) and (min-width: 768px) {
+  .video-container .video {
+    width: 700px;
+    height: 400px;
+    top: 10px;
+    left: 5px;
+  }
+}
+@media only screen and (max-width: 1200px) and (min-width: 993px) {
+  .video-container .video {
+width: 800px;
+height: 400px;  
+margin-left: -170px; 
+  }
+}
+@media only screen and (max-width: 1400px) and (min-width: 1201px) {
+  .video-container .video {
+width: 800px;
+height: 400px; 
+margin-left: 20px; 
+  }
+}

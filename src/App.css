@@ -1,0 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&family=Press+Start+2P&display=swap');
+.App {
+  background-color: rgb(54, 159, 227);
+}
+:root {
+  --gameFont: 'Orbitron', sans-serif;
+  --gameFont2: 'Press Start 2P', cursive;
+  --yellowColor: #fcd032;
+  --blueColor: #369fe3;
+  --redColor: #cf0d0e;
+}

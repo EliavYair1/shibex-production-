@@ -1,0 +1,58 @@
+.text-light {
+  color: #f8f9fa !important;
+}
+.pb-5,
+.py-5 {
+  padding-bottom: 3rem !important;
+}
+
+.footerContainer {
+  background-color: #fcd032 !important;
+  font-family: var(--gameFont);
+}
+footer {
+  padding: 6rem 0;
+}
+article,
+aside,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+nav,
+section {
+  display: block;
+}
+.custom-shape-divider-top-1642532432 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-top-1642532432 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 227px;
+}
+
+.custom-shape-divider-top-1642532432 .shape-fill {
+  fill: #369fe3;
+}
+.copyRights{
+  font-size: 0.8em;
+  color: #369fe3;
+  font-weight: bolder;
+}
+/** For mobile devices **/
+@media (max-width: 767px) {
+  .custom-shape-divider-top-1642532432 svg {
+    width: calc(100% + 1.3px);
+    height: 115px;
+  }
+}

@@ -1,0 +1,149 @@
+.o-hidden {
+  overflow: hidden;
+}
+.bg-primary-3 {
+  background-color: rgb(54, 159, 227) !important;
+}
+section {
+  padding: 6rem 0;
+}
+section {
+  position: relative;
+}
+
+
+.purchaseBtn {
+  background-color: #fcd032 !important;
+}
+.timerHeader {
+  font-family: var(--gameFont);
+  font-size: 1.5em;
+}
+.comingHeader {
+  font-family: var(--gameFont);
+  font-size: 1.3em;
+  margin-left: 4em;
+}
+
+.timerPara {
+  font-family: var(--gameFont);
+  font-size: 1.5em;
+}
+.timerDigits {
+  font-family: var(--gameFont2);
+}
+.timerClock {
+  font-family: var(--gameFont2);
+  font-size: 0.6em;
+}
+.timerBox {
+  width: 32em;
+  height: 14em;
+  margin-left: 4em;
+}
+@media screen and (max-width: 770px) and (min-width: 577px) {
+  .timerBox {
+    width: 25em;
+    margin-left: 5em;
+  }
+  .timerPara {
+    font-size: 1.1em;
+    width: 70%;
+    position: relative;
+    left: 30px;
+  }
+
+
+
+  .timerHeader {
+    font-size: 1.3em;
+    width: 60%;
+  }
+  .comingHeader {
+    font-size: 1.2em;
+        margin-left: 2em;
+
+  }
+  .badge,
+  .newsLink {
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 576px) and (min-width: 350px) {
+  .timerBox {
+    width: 20em;
+    margin:0 auto;
+  }
+  .timerClock {
+    font-size: 0.4em;
+  }
+  .comingHeader {
+    font-size: 1em;
+   margin-left:1em ;
+  }
+  .coming-soon{
+margin-right:   1.5em!important;
+}
+}
+@media screen and (max-width: 992px) and (min-width: 771px) {
+  .timerClock {
+    font-size: 0.6em;
+  }
+  .timerPara {
+    font-size: 1.5em;
+    width: 70%;
+    position: relative;
+    left: 30px;
+  }
+    
+.coming-soon{
+margin-right: -12em!important;
+font-size: 0.5em!important;
+}
+  .comingHeader {
+    font-size: 1.8em;
+    margin-right: -9em;
+  }
+  .timerBox {
+    width: 35em;
+    margin-left: 5em;
+  }
+
+  .timerHeader {
+    font-size: 2.1em;
+    width: 70%;
+  }
+
+  .badge,
+  .newsLink {
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 1200px) and (min-width: 993px) {
+  .timerPara {
+    width: 70%;
+    position: relative;
+    left: 30px;
+  }
+  .comingHeader {
+    font-size:1.5em;
+margin-right:-10em  }
+  .timerBox {
+    width: 35em;
+    margin-left: 8em;
+  }
+
+  .timerHeader {
+    font-size: 2.5em;
+    width: 70%;
+  }
+
+  .badge,
+  .newsLink {
+    margin-left: 30px;
+  }
+  .container {
+    position: relative;
+    left: 6em;
+  }
+}

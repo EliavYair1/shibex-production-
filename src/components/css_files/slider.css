@@ -1,0 +1,91 @@
+.carousel-indicators .active {
+  width: 12px !important;
+  height: 12px !important;
+  margin: 0 !important;
+  background-color: red !important;
+}
+.carousel-indicators li {
+  display: inline-block !important;
+  width: 10px !important;
+  height: 10px !important;
+  margin: 1px !important;
+  text-indent: -999px !important;
+  cursor: pointer !important;
+  background-color: rgba(0, 0, 0, 0) !important;
+  border: 1px solid #fcd032 !important;
+  border-radius: 10px !important;
+  padding: 2px !important;
+  margin-left: 10px !important;
+  margin-right: 10px !important;
+}
+.btn-slider {
+  border-radius: 45% !important;
+  width: 8em !important  ;
+  padding: 1.2em !important;
+}
+.btn-slider:focus {
+  background-color: red;
+}
+
+.innerBtns {
+  color: red !important;
+  width: 20em !important;
+  font-weight: bold !important;
+}
+.first-caption {
+  margin-bottom: 10em;
+  font-family: var(--gameFont);
+  text-shadow: 0 0 15px #fcd032, 0 0 10px #fcd032;
+}
+.second-caption {
+  margin-bottom: 10em;
+  font-family: var(--gameFont);
+  text-shadow: 0 0 15px #fcd032, 0 0 10px #fcd032;
+}
+.third-caption {
+  margin-bottom: 10em;
+  font-family: var(--gameFont);
+  text-shadow: 0 0 15px #fcd032, 0 0 10px #fcd032;
+}
+.ecosystem{
+  font-size: 1.3em !important;
+}
+.first-caption .captionHeader {
+  font-family: var(--gameFont);
+}
+.second-caption .captionHeader {
+  font-family: var(--gameFont);
+}
+.third-caption .captionHeader {
+  font-family: var(--gameFont);
+}
+.mobileImg {
+  display: none;
+}
+.desktopImg {
+  display: block;
+}
+@media screen and (max-width: 770px) {
+  .captionPara {
+    font-size: 1.2em !important;
+  }
+
+  .innerBtns {
+    width: 10em !important;
+    font-size: 1.5em;
+  }
+}
+@media screen and (max-width: 573px) {
+  .mobileImg {
+    display: block;
+    height: 100vh !important;
+    width: 100%;
+  }
+  .desktopImg {
+    display: none;
+  }
+  .captionPara {
+    font-size: 1em !important;
+    margin-top: 1em;
+  }
+}
